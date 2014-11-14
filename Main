@@ -1038,7 +1038,7 @@ class game:
                 self.multyplayer.proces = 0
                 self.options.proces = 0
                 self.user_profile = py_gjapi.GameJoltTrophy(self.username,
-                self.token, 34824, '*****************') #in real code here goes private key
+                self.token, 34824, '****************') #in real code here goes private key
                 if self.user_profile.authenticateUser():
                     self.guest = False
                     self.user_profile.storeData(self.username, 'started')
